@@ -5,6 +5,8 @@
 
 #i used beautifulSoup and regax to check on Binance accouncemnt page the coin that going to be listed on their site and get notified by sms using clicksend services.
 
+#it will keep check the URL every one second to dedeuct the change.
+
 #but unforfuntly the app is not working any more because gooogle no longer supports the use of third-party apps 
 https://support.google.com/accounts/answer/6010255
 
