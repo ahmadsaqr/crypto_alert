@@ -17,7 +17,6 @@ lastlist=re.search(r"\([A-z0-9 ]*\)",lastlist ).group()
 def check():
         
     if lastlist  != "(ANY)" : #last coin  to listed on binanace should not be equal to (ANY)         
-        print('dsds')
         from server import server
         server(f"Binance will list {lastlist}", 'mobile')   
         # time.sleep(1000)
